@@ -1,6 +1,6 @@
 # 🎵 Multi-Modal Music Clustering using Hybrid VAE 🤖
 
-![Python](https://img.shields.io/badge/Python-3.8%2B-blue)
+![Python](https://img.shields.io/badge/Python-3.10%2B-blue)
 ![PyTorch](https://img.shields.io/badge/PyTorch-2.0%2B-orange)
 ![License](https://img.shields.io/badge/License-MIT-green)
 
@@ -74,4 +74,21 @@ To generate the clustering metrics, results table, and visualizations (t-SNE, He
 python src/evaluate.py
 3. Generate Report Plots
 To reproduce the specific figures used in the final report:
-python src/generate_all_report_plots.py
+python src/generateplot.py
+python src/
+
+
+
+## 📝 Citation
+
+If you use this code or model in your research, please cite it as follows:
+
+```bibtex
+@misc{MultiModalMusicVAE2026,
+  author = {Islam, Md. Raisul},
+  title = {Multi-Modal Music Clustering using Hybrid VAE},
+  year = {2026},
+  publisher = {GitHub},
+  journal = {GitHub repository},
+  howpublished = {\url{[https://github.com/Raisul516/MultiModal-Music-VAE](https://github.com/Raisul516/MultiModal-Music-VAE)}}
+}
