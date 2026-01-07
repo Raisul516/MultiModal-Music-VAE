@@ -8,7 +8,7 @@ A PyTorch implementation of a **Hybrid Beta-Variational Autoencoder (β-VAE)** f
 The model fuses **Mel-Spectrogram audio features** and **TF-IDF-based lyric representations** to learn a joint disentangled latent space, achieving improved genre separation compared to unimodal baselines.
 
 <p align="center">
-  <img src="viz_tsne_top10.png" width="600" title="Latent Space Visualization (Top 10 Genres)">
+  <img src="Results/viz_tsne_top10.png" width="600" title="Latent Space Visualization (Top 10 Genres)">
 </p>
 
 ---
